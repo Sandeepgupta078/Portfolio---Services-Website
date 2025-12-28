@@ -53,15 +53,15 @@ export default function Contact() {
             <h3 className="mb-3 text-sm font-semibold tracking-tight">
               What works best
             </h3>
-            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
+            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-500">
               <li>• Local businesses that want predictable leads</li>
               <li>• Landing pages + funnels for ads</li>
               <li>• Full-stack web apps that tie into marketing</li>
             </ul>
           </div>
 
-          <div className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
-            <p className="font-semibold text-slate-700 dark:text-slate-100">
+          <div className="space-y-2 text-sm text-slate-600 dark:text-slate-500">
+            <p className="font-semibold text-slate-700 dark:text-slate-400">
               Prefer WhatsApp or email?
             </p>
             <p>📧 sandeepmgs078@gmail.com</p>

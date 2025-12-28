@@ -81,7 +81,7 @@ export default function Navbar() {
                 onClick={() => scrollTo(n.id)}
                 className={`relative pb-1 transition ${active === n.id
                   ? "text-primary"
-                  : "text-slate-500 hover:text-slate-900 dark:hover:text-slate-100"
+                  : "text-slate-500 hover:text-slate-900 dark:hover:text-slate-400"
                   }`}
               >
                 {/* {n.label} */}

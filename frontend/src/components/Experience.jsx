@@ -6,10 +6,10 @@ export default function Experience() {
     <section id="experience" className="section-container">
       <p className="section-eyebrow">Experience</p>
       <h2 className="section-title">Where I’ve been hands-on</h2>
-      <p className="section-subtitle max-w-2xl">
+      {/* <p className="section-subtitle max-w-2xl">
         From managing teams to running campaigns end-to-end, here&apos;s a quick
         snapshot of my experience so far.
-      </p>
+      </p> */}
 
       <div className="relative mt-6 space-y-6">
         <div className="absolute left-3 top-0 h-full w-px bg-slate-200 dark:bg-slate-800" />
@@ -25,11 +25,11 @@ export default function Experience() {
               <h3 className="text-lg font-semibold tracking-tight">
                 {e.role}
               </h3>
-              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">
+              <p className="text-sm text-slate-500 dark:text-slate-500 mb-3">
                 {e.company}
               </p>
 
-              <ul className="mt-1 space-y-1.5 text-sm text-slate-600 dark:text-slate-300 list-disc list-inside">
+              <ul className="mt-1 space-y-1.5 text-sm text-slate-600 dark:text-slate-500 list-disc list-inside">
                 {e.list?.map((l, idx) => (
                   <li key={idx}>{l}</li>
                 ))}
