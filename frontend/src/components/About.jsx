@@ -5,14 +5,18 @@ export default function About() {
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="section-eyebrow">About</p>
-          <h2 className="section-title">A mix of dev, design & growth</h2>
+          <h2 className="section-title">Building experiences, not just websites</h2>
           <p className="section-subtitle max-w-2xl">
-            I sit at the intersection of{" "}
+            I combine{" "}
             <span className="font-semibold">
-              UI/UX, full-stack development and performance marketing
+              intuitive UI/UX, robust full-stack development, and performance optimization
+            </span>{" "}
+            to craft digital products that feel great and work even better. My focus is
+            always on{" "}
+            <span className="font-semibold">
+              real-world impact, speed, and scalability
             </span>
-            . That means I don&apos;t just ship beautiful interfaces – I ship{" "}
-            <span className="font-semibold">measurable results.</span>
+            .
           </p>
         </div>
 
